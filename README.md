@@ -27,7 +27,7 @@ var foursquare = require('react-foursquare')({
 });
 
 var params = {
-	"ll": "37.7749,-122.4194",
+  "ll": "37.7749,-122.4194",
   "query": 'Blue Bottle'
 };
 
