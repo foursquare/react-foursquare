@@ -9,9 +9,12 @@ Here is a simple react application:
 2. Create Project
 
 `npm install -g create-react-app`
+
 `create-react-app MrJitters`
-'cd MrJitters'
-'npm install -i react-foursquare'
+
+`cd MrJitters`
+
+`npm install -i react-foursquare`
 
 3. Modify your src/App.js
 
