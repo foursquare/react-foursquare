@@ -1,0 +1,31 @@
+{
+  "name": "react-foursqare",
+  "version": "0.0.1",
+  "description": "react wrapper for foursquare ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foursquare/react-foursquare.git"
+  },
+  "keywords": [
+    "react-component",
+    "react",
+    "react-native",
+    "foursquare",
+    "4square",
+    "fsq"
+    "fetch"
+  ],
+  "author": "Gareth Paul Jones",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foursquare/react-foursquare/issues"
+  },
+  "homepage": "https://github.com/foursquare/react-foursquare#readme",
+  "dependencies": {
+    "querystring": "^0.2.0"
+  }
+}
