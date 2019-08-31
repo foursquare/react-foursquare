@@ -23,10 +23,14 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
 
+// need to create an .env file - see instructions in link
+// https://stackoverflow.com/questions/48699820/how-do-i-hide-api-key-in-create-react-app
+var CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
+var CLIENT_SECRET = process.env.REACT_APP_CLIENT_SECRET;
 
 var foursquare = require('react-foursquare')({
-  clientID: '',
-  clientSecret: ''  
+  clientID: CLIENT_ID,
+  clientSecret: CLIENT_SECRET  
 });
 
 var params = {
